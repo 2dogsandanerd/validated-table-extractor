@@ -446,7 +446,6 @@ If you use this tool in research or production, please cite:
 
 ## Support
 
-- 📖 Documentation: [Read the Docs](https://validated-table-extractor.readthedocs.io)
 - 🐛 Issues: [GitHub Issues](https://github.com/yourusername/validated-table-extractor/issues)
 - 💬 Discussions: [GitHub Discussions](https://github.com/yourusername/validated-table-extractor/discussions)
 
