@@ -46,6 +46,20 @@ graph LR
 
 ---
 
+## Visual Examples
+
+Here are some visual examples of the extraction and validation process:
+
+### Example 1: Basic Table Extraction
+
+![Validated Table Extractor Example 1](examples/validate1.png)
+
+### Example 2: Complex Table Extraction
+
+![Validated Table Extractor Example 2](examples/validate2.png)
+
+---
+
 ## Installation
 
 ```bash
