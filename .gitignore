@@ -1,0 +1,81 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+# Usually these files are created by a --onefile executable bundling everything
+# into a single file, but it may be desired to hide them not file-based
+# builds too.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Environments
+.env
+.venv
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# IDE directories
+.idea/
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Custom rules
+# Ignore generated tables from validation runs
+validated_tables/
+
+# Per user request
+CLAUDE.md
+
+# Specific log and temp files
+*.log
+*.tmp
+*.temp

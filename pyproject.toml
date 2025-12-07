@@ -1,0 +1,85 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "src"
+version = "0.1.0"
+description = "Audit-ready PDF table extraction with LLM-powered validation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+keywords = ["pdf", "table-extraction", "llm", "validation", "audit", "compliance"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+dependencies = [
+    "docling>=2.0.0",
+    "PyMuPDF>=1.23.0",
+    "Pillow>=10.0.0",
+    "pydantic>=2.0.0",
+    "langchain-ollama>=0.1.0",
+    "langchain-openai>=0.1.0",
+    "langchain-core>=0.2.0",
+    "loguru>=0.7.0",
+    "tqdm>=4.66.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "pytest-cov>=4.1.0",
+    "black>=23.0.0",
+    "ruff>=0.1.0",
+    "mypy>=1.5.0",
+]
+excel = [
+    "pandas>=2.0.0",
+    "openpyxl>=3.1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/validated-table-extractor"
+Documentation = "https://validated-table-extractor.readthedocs.io"
+Repository = "https://github.com/yourusername/validated-table-extractor"
+"Bug Tracker" = "https://github.com/yourusername/validated-table-extractor/issues"
+
+[project.scripts]
+validate-tables = "src.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[tool.black]
+line-length = 100
+target-version = ["py310", "py311", "py312"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+select = ["E", "F", "I", "N", "W"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
