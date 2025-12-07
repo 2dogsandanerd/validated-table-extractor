@@ -4,7 +4,18 @@
 
 **Powered by IBM's Docling for extraction, validated by Vision LLMs**
 
+---
 
+## Acknowledgments & Attribution
+
+This project stands on the shoulders of giants. We explicitly want to credit the amazing open-source work that makes this tool possible:
+
+- **[Docling](https://github.com/DS4SD/docling)** by IBM (DS4SD): Used for the state-of-the-art PDF layout analysis and markdown conversion. (MIT License)
+- **[Ollama](https://github.com/ollama/ollama)**: Used for local LLM inference. (MIT License)
+
+This tool is a wrapper and validation pipeline *around* these technologies. We are not affiliated with IBM or the Docling team.
+
+---
 ---
 
 ## The Problem
@@ -50,6 +61,7 @@ graph LR
 ## Visual Examples
 
 Here are some visual examples of the extraction and validation process:
+CPU only
 
 ### Example 1: Basic Table Extraction
 
