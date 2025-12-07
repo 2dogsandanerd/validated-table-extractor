@@ -1,8 +1,8 @@
 # Validated Table Extractor
 
-**The world's first audit-ready PDF table extraction tool.**
+**Audit-ready PDF table extraction tool. Not only Data, confidence**
 
-Most table extractors just give you data. This one gives you **confidence.**
+
 
 ---
 
