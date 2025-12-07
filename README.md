@@ -2,6 +2,7 @@
 
 **Audit-ready PDF table extraction tool. Not only Data, confidence**
 
+**Powered by IBM's Docling for extraction, validated by Vision LLMs**
 
 
 ---
@@ -9,9 +10,9 @@
 ## The Problem
 
 Traditional PDF table extractors are a gamble:
-- ❌ No validation → Silent failures
-- ❌ No confidence scores → Trust issues
-- ❌ No audit trail → Compliance nightmares
+- ❌ No validation 
+- ❌ No confidence scores
+- ❌ No audit trail 
 
 In regulated industries (legal, finance, healthcare), **you cannot afford to guess** if your extracted data is correct.
 
@@ -191,9 +192,9 @@ High-risk extractions:
 - **Quality Metrics:** Track extraction quality over time
 
 ### For Developers
-- **Deterministic:** Same PDF always produces same result
-- **Transparent:** See exactly what the LLM validated
-- **Extensible:** Plug in any Vision LLM (Ollama, OpenAI GPT-4V, Anthropic Claude)
+- **Deterministic:**    Same PDF always produces same result
+- **Transparent:**      See exactly what the LLM validated
+- **Extensible:**       Plug in any Vision LLM (Ollama, OpenAI GPT-4V, Anthropic Claude)
 
 ---
 
@@ -440,7 +441,13 @@ ruff check src/
 ## License
 
 MIT License - Use freely in commercial and open-source projects.
+Validated Table Extractor
+Copyright (c) 2025 2dogsandanerd
 
+This product includes software developed by IBM (Docling) and other open source contributors.
+
+Docling: https://github.com/DS4SD/docling (MIT License)
+Copyright (c) 2024 IBM Corp.
 ---
 
 ## Citation
@@ -450,9 +457,9 @@ If you use this tool in research or production, please cite:
 ```bibtex
 @software{validated_table_extractor,
   title = {Validated Table Extractor: Audit-Ready PDF Table Extraction},
-  author = {Your Name},
+  author = {2dogsandanerd},
   year = {2025},
-  url = {https://github.com/yourusername/validated-table-extractor}
+  url = {https://github.com/2dogsandanerd/validated-table-extractor}
 }
 ```
 
@@ -460,8 +467,8 @@ If you use this tool in research or production, please cite:
 
 ## Support
 
-- 🐛 Issues: [GitHub Issues](https://github.com/yourusername/validated-table-extractor/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/yourusername/validated-table-extractor/discussions)
+- 🐛 Issues:         [GitHub Issues](https://github.com/2dogsandanerd/validated-table-extractor/issues)
+- 💬 Discussions:     [GitHub Discussions](https://github.com/2dogsandanerd/validated-table-extractor/discussions)
 
 ---
 
