@@ -1,6 +1,6 @@
 # Validated Table Extractor
 
-**Audit-ready PDF table extraction tool. Not only Data, confidence**
+**Audit-ready PDF table verification tool.**
 
 **Powered by IBM's Docling for extraction, validated by Vision LLMs**
 
@@ -460,6 +460,7 @@ This product includes software developed by IBM (Docling) and other open source 
 
 Docling: https://github.com/DS4SD/docling (MIT License)
 Copyright (c) 2024 IBM Corp.
+
 ---
 
 ## Citation
